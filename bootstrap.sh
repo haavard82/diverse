@@ -70,8 +70,8 @@ show_version(){
 # ============================================
 
 # Laster ned init_template.sh som installerer SW og config på templaten
-curl https://git.havkros.duckdns.org:4443/hko/bootstrap/raw/branch/main/init_template.sh --output $HOME/init_template.sh
-curl https://git.havkros.duckdns.org:4443/hko/bootstrap/raw/branch/main/config.yaml --output $HOME/config.yaml
+curl https://raw.githubusercontent.com/haavard82/bootstrap/refs/heads/main/init_template.sh --output $HOME/init_template.sh
+curl https://raw.githubusercontent.com/haavard82/bootstrap/refs/heads/main/config.yaml --output $HOME/config.yaml
 chmod +x $HOME/init_template.sh
 
 # Kjører init_template.sh
