@@ -1,7 +1,5 @@
 #!/bin/zsh
 
-#!/bin/zsh
-
 # ============================================
 # Script Name:     init_template.sh
 # Description:     Dette scriptet initialiserer template VMen
